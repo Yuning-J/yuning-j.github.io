@@ -1,6 +1,6 @@
 ---
-title: "Thousands Nights"
-excerpt: "Exhibition Exposure <br/><img src='/images/thousand_nights.jpg'>"
+title: "Exhibition Exposure"
+excerpt: "Thousand Nights <br/><img src='/images/thousand_nights.jpg'>"
 collection: portfolio
 ---
 
