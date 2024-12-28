@@ -1,20 +1,16 @@
 ---
-title: "Teaching experience 2"
+title: "Lecturer - Cybersecurity for IoT and Critical Infrastructures"
 collection: teaching
-type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+type: "Master course"
+venue: "University of Skövde, School of Informatics"
+date: 2018-09-01
+location: "Skövde, Sweden"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+Developed and delivered a cybersecurity course tailored for IoT and critical infrastructures.  
 
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+### Key Activities
+- Designed course content based on ELVIRA project research outcomes.  
+- Delivered lectures online and on-site, incorporating hands-on lab seminars.  
+- Organized and led cybersecurity workshops for industrial professionals.  
+- Managed course teams, improving student engagement and performance.  
