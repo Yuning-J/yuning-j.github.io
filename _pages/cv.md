@@ -53,7 +53,13 @@ Teaching
 Service and leadership
 ======
 * Reviewer for:
-  * \textit{Business \& Information Systems Engineering (2023)}
-  * \textit{IEEE Transactions on Intelligent Vehicles (2023)}
-  * \textit{Swedish Production Symposium (2022)}
-  * \textit{Computers \& Security (2021)}
+  * Business & Information Systems Engineering (2023)
+  * IEEE Transactions on Intelligent Vehicles (2023)
+  * Swedish Production Symposium (2022)
+  * Computers & Security (2021)
+
+* Guest Editor for:
+  * Journal of Intelligent Communication (2024)
+ 
+* Co-Organizer for:
+  * Special Session of "Digital Games as Socio/Technical Systems" in  IEEE International Conference on e-Business Engineering (ICEBE)
