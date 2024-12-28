@@ -1,5 +1,5 @@
 ---
-title: "Lecturer - Object-Oriented Programming (OOP)"
+title: "Lab Supervisor - Object-Oriented Programming (OOP)"
 collection: teaching
 type: "Undergraduate course"
 venue: "University of Skövde, School of Informatics"
