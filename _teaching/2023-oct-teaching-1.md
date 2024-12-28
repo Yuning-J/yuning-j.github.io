@@ -1,5 +1,5 @@
 ---
-title: "Teaching Assistant - Undergraduate Thesis Supervision"
+title: "Undergraduate Thesis Supervision"
 collection: teaching
 type: "Undergraduate course"
 venue: "Nanyang Technological University, School of Computer Science and Engineering"
