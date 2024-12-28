@@ -18,29 +18,27 @@ Education
 
 Work experience
 ======
-* Oct 2023 till Now: Research Fellow
-  * National University of Singapore
-  * Duties includes: Led a team to develop a pipeline for vulnerability retrieval; Orchestrated a collaborative project with NCS Pte Ltd to develop algorithms for threat hunting.
+* OCT.2023 till Now: Research Fellow (National University of Singapore)
+  * Led a team to develop a pipeline for vulnerability retrieval.
+  * Orchestrated a collaborative project with NCS Pte Ltd to develop algorithms for threat hunting.
+  * Performed individual research on risk aggregation for complex systems.
   * Supervisor: Bachelor thesis projects.
 
-* Oct 2022 - Oct 2023: Research Fellow
-  * Nanyang Technological University
+* OCT.2022 - OCT.2023: Research Fellow (Nanyang Technological University)
   * Duties included: Led the development of a Knowledge Graph Based tool to streamline software testing for WeBank.
   * Supervisor: Bachelor thesis projects.
 
-* Summer 2015: Data Product Manager
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* JUN.2017 - AUG.2016: Data Product Manager (Beijing Changjiu Logistics Co., Ltd)
+  * Led a team of 10 in developing data-driven products to predict car dealership loan risks.
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+#Skills
+#======
+#* Skill 1
+#* Skill 2
+#  * Sub-skill 2.1
+#  * Sub-skill 2.2
+#  * Sub-skill 2.3
+#* Skill 3
 
 Publications
 ======
