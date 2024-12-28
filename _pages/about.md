@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
+Research Portfolio
+---
 
 I am a dedicated computer scientist and senior researcher with over eight years of experience at the intersection of cybersecurity, data analytics, and information systems. Currently a Research Fellow at the National University of Singapore, I lead advanced projects on vulnerability retrieval, graph-based attack modeling, and AI-driven threat intelligence. My work integrates machine learning, natural language processing, and graph algorithms to develop scalable solutions for complex cybersecurity challenges.
 
