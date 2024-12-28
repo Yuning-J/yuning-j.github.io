@@ -1,7 +1,7 @@
 ---
 title: "Cyber-Threat Intelligence Architecture for Smart-Grid Critical Infrastructures Protection"
 collection: publications
-category: manuscripts
+category: conferences
 permalink: /publication/2017-cyber-threat-smart-grid
 excerpt: 'This paper proposes a comprehensive cyber-threat intelligence architecture for critical infrastructures, focusing on smart grids. It integrates machine learning and situation-awareness models to enhance threat detection, cascade-effect prediction, and decision-making for infrastructure protection.'
 date: 2017-10-08
