@@ -1,7 +1,7 @@
 ---
 title: "A Language and Repository for Cyber Security of Smart Grids"
 collection: publications
-category: manuscripts
+category: conferences
 permalink: /publication/2018-cybersecurity-smart-grids
 excerpt: 'This paper introduces a domain-specific language and repository framework for modeling smart grids, enabling vulnerability analysis and security assessments by integrating cyber-physical components and enterprise architectures.'
 date: 2018-10-16
