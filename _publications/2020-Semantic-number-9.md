@@ -1,7 +1,7 @@
 ---
 title: "A Semantic Framework With Humans in the Loop for Vulnerability-Assessment in Cyber-Physical Production Systems"
 collection: publications
-category: manuscripts
+category: conferences
 permalink: /publication/2020-semantic-framework-vulnerability
 excerpt: 'This paper proposes a semantic framework that incorporates human-in-the-loop approaches for vulnerability assessment in cyber-physical production systems, enabling collaborative risk evaluation and attack scenario analysis.'
 date: 2020-10-29
