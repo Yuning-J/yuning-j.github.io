@@ -1,7 +1,7 @@
 ---
 title: "Cyber-Physical Systems Security Based on A Cross-Linked and Correlated Vulnerability Database"
 collection: publications
-category: manuscripts
+category: conferences
 permalink: /publication/2019-cps-security-database
 excerpt: 'This paper proposes a cross-linked and correlated vulnerability database framework for cyber-physical systems, enabling automated vulnerability analysis, trend identification, and risk assessment to enhance critical infrastructure protection.'
 date: 2019-09-23
