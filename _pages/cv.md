@@ -11,23 +11,24 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Informatics, University of Skövde, 2022 
+* MSc in Electronic Engineering with Business Management, King's College London, 2016
+* BSc (Eng) in Electronics and Information, Beihang University, 2014
+* Exchange, Ecole Supérieure Des Techniques Aéronautiques Et De Construction Automobile, 2014
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Oct 2023 till Now: Research Fellow
+  * National University of Singapore
+  * Duties includes: Led a team to develop a pipeline for vulnerability retrieval; Orchestrated a collaborative project with NCS Pte Ltd to develop algorithms for threat hunting.
+  * Supervisor: Bachelor thesis projects.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Oct 2022 - Oct 2023: Research Fellow
+  * Nanyang Technological University
+  * Duties included: Led the development of a Knowledge Graph Based tool to streamline software testing for WeBank.
+  * Supervisor: Bachelor thesis projects.
 
-* Summer 2015: Research Assistant
+* Summer 2015: Data Product Manager
   * Github University
   * Duties included: Tagging issues
   * Supervisor: Professor Git
