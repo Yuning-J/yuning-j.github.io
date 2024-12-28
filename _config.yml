@@ -12,7 +12,7 @@ title                    : "Yuning's Personal Website"
 title_separator          : "-"
 name                     : &name "Yuning Jiang"
 description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://yuning-j.github.io"
+url                      : https://yuning-j.github.io/ # the base hostname & protocol for your site e.g. "https://yuning-j.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "https://yuning-j.github.io/"
 
