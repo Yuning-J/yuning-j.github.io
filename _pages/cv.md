@@ -52,4 +52,8 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Reviewer for:
+  * \textit{Business \& Information Systems Engineering (2023)}
+  * \textit{IEEE Transactions on Intelligent Vehicles (2023)}
+  * \textit{Swedish Production Symposium (2022)}
+  * \textit{Computers \& Security (2021)}
