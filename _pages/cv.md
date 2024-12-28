@@ -26,7 +26,7 @@ Work experience
 
 * OCT.2022 - OCT.2023: Research Fellow (Nanyang Technological University)
   * Led the development of a Knowledge Graph Based tool to streamline software testing for WeBank.
-  * Supervissed Bachelor thesis projects.
+  * Supervised Bachelor thesis projects.
 
 * JUN.2017 - AUG.2016: Data Product Manager (Beijing Changjiu Logistics Co., Ltd)
   * Led a team of 10 in developing data-driven products to predict car dealership loan risks.
