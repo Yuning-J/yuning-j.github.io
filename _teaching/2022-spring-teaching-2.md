@@ -3,7 +3,7 @@ title: "Lecturer - Cybersecurity for IoT and Critical Infrastructures"
 collection: teaching
 type: "Master course"
 venue: "University of Skövde, School of Informatics"
-date: 2018-09-01
+date: 2022-02-01
 location: "Skövde, Sweden"
 ---
 
