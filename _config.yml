@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Yuning's Personal Website"
+title                    : "Yuning's Research Portfolio"
 title_separator          : "-"
 name                     : &name "Yuning Jiang"
 description              : &description "personal description"
@@ -24,7 +24,7 @@ author:
   avatar           : "yuning.png"
   name             : "Yuning Jiang"
   pronouns         : # example: "she/her"  
-  bio              : "Senior Researcher | Lecturer | Photographer"
+  bio              : "Senior Researcher | Lecturer | Computer Scientist"
   location         : "Singapore"
   employer         : "National University of Singapore"
   uri              : # URL
