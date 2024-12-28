@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Yuning's Research Portfolio"
+title                    : "Yuning's Personal Website"
 title_separator          : "-"
 name                     : &name "Yuning Jiang"
 description              : &description "personal description"
