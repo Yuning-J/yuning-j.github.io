@@ -12,6 +12,7 @@ The black cat, unapologetically lounging, appears to own the room now :-)
 
 
 <br/><img src='/images/taiwan_exp2.jpg'>
+
 "The elders on the street live independently and also in groups. As they laugh, the crow's feet and the wrinkles on there cheeks that spread like bare branches bear testimony to the trials and tribulations they had experienced."
 Such brilliant representation of the wrinkles through bending the metal wire. They take up different postures under the spotlight.
 
