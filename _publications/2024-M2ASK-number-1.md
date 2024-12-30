@@ -1,5 +1,5 @@
 ---
-title: "Poster: M2ASK: A Correlation-Based Multi-Step Attack Scenario Detection Framework Using MITRE ATT&CK Mapping"
+title: "M2ASK: A Correlation-Based Multi-Step Attack Scenario Detection Framework Using MITRE ATT&CK Mapping"
 collection: publications
 category: conferences
 permalink: /publication/2024-multi-step-attack-detection
