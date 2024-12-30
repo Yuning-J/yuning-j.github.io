@@ -1,11 +1,14 @@
 ---
 permalink: /
-title: "Yuning Jiang"
+title: " "
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+I am a Postdoctoral Research Fellow at the National University of Singapore, specializing in cybersecurity, data analytics, and information systems. With over eight years of research experience, I lead projects on vulnerability retrieval, graph-based attack modeling, and AI-driven threat intelligence.
+
 
 ## Research
 
