@@ -14,7 +14,7 @@ name                     : &name "Yuning Jiang"
 description              : "I am a Postdoctoral Research Fellow at the National University of Singapore, specializing in cybersecurity, data analytics, and information systems. With over eight years of research experience, I lead projects on vulnerability retrieval, graph-based attack modeling, and AI-driven threat intelligence."
 url                      : https://yuning-j.github.io # the base hostname & protocol for your site e.g. "https://yuning-j.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "https://yuning-j.github.io/"
+repository               : "https://yuning-j.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
