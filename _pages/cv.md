@@ -26,7 +26,7 @@ redirect_from:
   * Led the development of a Knowledge Graph Based tool to streamline software testing for WeBank.
   * Supervised Bachelor thesis projects.
 
-* JUN.2017 - AUG.2016: Data Product Manager (Beijing Changjiu Logistics Co., Ltd)
+* JUN.2016 - AUG.2017: Data Product Manager (Beijing Changjiu Logistics Co., Ltd)
   * Led a team of 10 in developing data-driven products to predict car dealership loan risks.
   
 
