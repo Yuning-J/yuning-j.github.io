@@ -7,9 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-Research
----
-
 ## Research
 
 > *Research Interests*: 1. Cybersecurity (*Vulnerability Analysis, Cyber Resilience, Threat Intelligence*); 2. Data Analytics (*Graph Algorithms, Risk Modeling, Data-Driven Automation*); 3. Machine Learning (*Natural Language Processing, AI for Security, Graph Neural Networks*).
