@@ -10,6 +10,11 @@ redirect_from:
 Research
 ---
 
-I am a dedicated computer scientist and senior researcher with over eight years of experience at the intersection of cybersecurity, data analytics, and information systems. Currently a Research Fellow at the National University of Singapore, I lead advanced projects on vulnerability retrieval, graph-based attack modeling, and AI-driven threat intelligence. My work integrates machine learning, natural language processing, and graph algorithms to develop scalable solutions for complex cybersecurity challenges.
+## Research
 
-With a Ph.D. in Informatics and collaborations across academia and industry, I have authored peer-reviewed publications, patented methodologies, and received multiple awards, including the Länsförsäkringar Skaraborg Prize. My research vision focuses on enhancing cyber resilience, automating risk assessments, and bridging theoretical models with real-world applications. 
+> *Research Interests*: 1. Cybersecurity (*Vulnerability Analysis, Cyber Resilience, Threat Intelligence*); 2. Data Analytics (*Graph Algorithms, Risk Modeling, Data-Driven Automation*); 3. Machine Learning (*Natural Language Processing, AI for Security, Graph Neural Networks*).
+
+
+My research focuses on developing AI-powered frameworks to automate risk assessments and enhance cyber resilience. Recent work includes graph-based attack modeling (🕸️) and AI-driven threat detection (🤖). I also explore domain-specific adaptations for natural language processing and machine learning to tackle complex cybersecurity challenges.
+
+I hold a Ph.D. in Informatics and have collaborated extensively across academia and industry. My contributions include peer-reviewed publications, patented methodologies, and multiple awards, such as the Länsförsäkringar Skaraborg Prize.
