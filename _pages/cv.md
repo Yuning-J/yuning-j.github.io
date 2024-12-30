@@ -57,3 +57,10 @@ redirect_from:
  
 * Co-Organizer for:
   * Special Session of "Digital Games as Socio/Technical Systems" in  IEEE International Conference on e-Business Engineering (ICEBE)
+ 
+## Honors and Awards
+* 2022 Länsförsäkringar Skaraborg Prize, issued by Skaraborgs Academy on Outstanding PhD Thesis.
+* 2022 Vinnova funding on applied research validation, University of Skövde, $5,000.
+* 2019 Young CRITIS Award, issued by the 14th International Conference on Critical Information Infrastructure Security.
+* 2019 IPSI (Industrial PhD School in Informatics) Scholarship, University of Skövde, $10,000.
+* 2017 European Union - Internal Security Fund.
