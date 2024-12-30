@@ -9,15 +9,13 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
+## Education
 * Ph.D in Informatics, University of Skövde, 2022 
 * MSc in Electronic Engineering with Business Management, King's College London, 2016
 * BSc (Eng) in Electronics and Information, Beihang University, 2014
 * Exchange, Ecole Supérieure Des Techniques Aéronautiques Et De Construction Automobile, 2014
 
-Work experience
-======
+## Work Experience
 * OCT.2023 till Now: Research Fellow (National University of Singapore)
   * Led a team to develop a pipeline for vulnerability retrieval.
   * Orchestrated a collaborative project with NCS Pte Ltd to develop algorithms for threat hunting.
@@ -32,26 +30,22 @@ Work experience
   * Led a team of 10 in developing data-driven products to predict car dealership loan risks.
   
 
-Publications
-======
+## Publications
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
+## Talks
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
   
-Teaching
-======
+## Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
+## Service 
 * Reviewer for:
   * Business & Information Systems Engineering (2023)
   * IEEE Transactions on Intelligent Vehicles (2023)
