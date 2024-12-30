@@ -9,7 +9,7 @@ redirect_from:
 
 ## Research
 
-> *Research Interests*: 1. Cybersecurity (*Vulnerability Analysis, Cyber Resilience, Threat Intelligence*); 2. Data Analytics (*Graph Algorithms, Risk Modeling, Data-Driven Automation*); 3. Machine Learning (*Natural Language Processing, AI for Security, Graph Neural Networks*).
+> *Research Interests*: 1. Cybersecurity (*Vulnerability Analysis, Cyber Resilience, Threat Intelligence*); 2. Machine Learning (*Natural Language Processing, AI for Security, Graph Algorithms*).
 
 
 My research focuses on developing AI-powered frameworks to automate risk assessments and enhance cyber resilience. Recent work includes graph-based attack modeling (🕸️) and AI-driven threat detection (🤖). I also explore domain-specific adaptations for natural language processing and machine learning to tackle complex cybersecurity challenges.
