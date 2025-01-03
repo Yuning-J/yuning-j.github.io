@@ -15,6 +15,6 @@ I am a Postdoctoral Research Fellow at the National University of Singapore, spe
 > *Research Interests*: 1. Cybersecurity (*Vulnerability Analysis, Cyber Resilience, Threat Intelligence*); 2. Machine Learning (*Natural Language Processing, AI for Security, Graph Algorithms*).
 
 
-My research focuses on developing AI-powered frameworks to automate risk assessments and enhance cyber resilience. Recent work includes graph-based attack modeling (🕸️) and AI-driven threat detection (🤖). I also explore domain-specific adaptations for natural language processing and machine learning to tackle complex cybersecurity challenges.
+My research focuses on developing AI-powered frameworks to automate risk assessments and enhance cyber resilience. Recent work includes graph-based attack modeling (🕸️), ML-based threat detection (🤖), and enhanced vulnerability retrieval with reduced false positives. I also explore domain-specific adaptations for natural language processing and machine learning to tackle complex cybersecurity challenges.
 
 I hold a Ph.D. in Informatics and have collaborated extensively across academia and industry. My contributions include peer-reviewed publications, patented methodologies, and multiple awards, such as the Länsförsäkringar Skaraborg Prize.
