@@ -1,7 +1,7 @@
 ---
 title: "Photograph - Sunset Chaser"
 excerpt: "<br/><img src='/images/sunset1.jpg'>"
-collection: portfolio
+collection: hobbies
 ---
 
 The sun blazes through swirling golden clouds, casting a fiery glow over the dark forest. 
