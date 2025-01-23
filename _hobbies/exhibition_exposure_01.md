@@ -1,7 +1,7 @@
 ---
 title: "Exhibition Exposure - Thousand Nights"
 excerpt: "<br/><img src='/images/thousand_nights.jpg'>"
-collection: portfolio
+collection: hobbies
 ---
 
 “A star was born.
