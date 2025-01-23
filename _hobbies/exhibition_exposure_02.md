@@ -1,7 +1,7 @@
 ---
 title: "Exhibition Exposure - Monet"
 excerpt: "<br/><img src='/images/monet1.jpg'>"
-collection: portfolio
+collection: hobbies
 ---
 
 Monet art exhibition in Osaka, Japan.
