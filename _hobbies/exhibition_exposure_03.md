@@ -1,7 +1,7 @@
 ---
 title: "Exhibition Exposure - Taiwan Modern Art"
 excerpt: "<br/><img src='/images/taiwan_exp1.jpg'>"
-collection: portfolio
+collection: hobbies
 ---
 
 "Dreaming Life"
