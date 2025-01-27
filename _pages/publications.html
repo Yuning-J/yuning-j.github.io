@@ -18,84 +18,36 @@ author_profile: true
 
     <!-- Publications section -->
     <div class="publications">
-      {% if site.publication_category %}
-        {% for category in site.publication_category %}
-          {% assign title_shown = false %}
-          {% for post in site.publications reversed %}
-            {% if post.category != category[0] %}
-              {% continue %}
-            {% endif %}
-            {% unless title_shown %}
-              <h2>{{ category[1].title }}</h2>
-              <hr />
-              {% assign title_shown = true %}
-            {% endunless %}
-
-            <!-- Publication card -->
-            <div class="row publication-card mb-4">
-              {% if post.image %}
-                <div class="col-md-4">
-                  <img src="{{ post.image }}" alt="Figure for {{ post.title }}" class="img-fluid rounded">
-                </div>
-              {% endif %}
-              <div class="col-md-8">
-                <!-- Title and Citation -->
-                <p>{{ post.citation }}</p>
-                <!-- Excerpt -->
-                <p><i>{{ post.excerpt }}</i></p>
-                <!-- Buttons -->
-                <div class="buttons">
-                  {% if post.paperurl %}
-                    <a class="btn btn-primary btn-sm" href="{{ post.paperurl }}">Paper</a>
-                  {% endif %}
-                  {% if post.codeurl %}
-                    <a class="btn btn-success btn-sm" href="{{ post.codeurl }}">Code</a>
-                  {% endif %}
-                  {% if post.slideurl %}
-                    <a class="btn btn-warning btn-sm" href="{{ post.slideurl }}">Slides</a>
-                  {% endif %}
-                  {% if post.bibtex %}
-                    <a class="btn btn-info btn-sm poptext" href="javascript:void(0);" button-text="{{ post.bibtex | escape }}">BibTeX</a>
-                  {% endif %}
-                </div>
-              </div>
+      {% for post in site.publications reversed %}
+        <div class="row publication-card mb-4">
+          <!-- Left Column: Image -->
+          {% if post.image %}
+            <div class="col-md-6">
+              <img src="{{ post.image }}" alt="Figure for {{ post.title }}" class="img-fluid rounded shadow">
             </div>
-            <hr />
-          {% endfor %}
-        {% endfor %}
-      {% else %}
-        {% for post in site.publications reversed %}
-          <div class="row publication-card mb-4">
-            {% if post.image %}
-              <div class="col-md-4">
-                <img src="{{ post.image }}" alt="Figure for {{ post.title }}" class="img-fluid rounded">
-              </div>
-            {% endif %}
-            <div class="col-md-8">
-              <!-- Title and Citation -->
-              <p>{{ post.citation }}</p>
-              <!-- Excerpt -->
-              <p><i>{{ post.excerpt }}</i></p>
-              <!-- Buttons -->
-              <div class="buttons">
-                {% if post.paperurl %}
-                  <a class="btn btn-primary btn-sm" href="{{ post.paperurl }}">Paper</a>
-                {% endif %}
-                {% if post.codeurl %}
-                  <a class="btn btn-success btn-sm" href="{{ post.codeurl }}">Code</a>
-                {% endif %}
-                {% if post.slideurl %}
-                  <a class="btn btn-warning btn-sm" href="{{ post.slideurl }}">Slides</a>
-                {% endif %}
-                {% if post.bibtex %}
-                  <a class="btn btn-info btn-sm poptext" href="javascript:void(0);" button-text="{{ post.bibtex | escape }}">BibTeX</a>
-                {% endif %}
-              </div>
+          {% endif %}
+          <!-- Right Column: Text and Buttons -->
+          <div class="col-md-6">
+            <p>{{ post.citation }}</p>
+            <p><i>{{ post.excerpt }}</i></p>
+            <div class="buttons">
+              {% if post.paperurl %}
+                <a class="btn btn-primary btn-sm" href="{{ post.paperurl }}">Paper</a>
+              {% endif %}
+              {% if post.codeurl %}
+                <a class="btn btn-success btn-sm" href="{{ post.codeurl }}">Code</a>
+              {% endif %}
+              {% if post.slideurl %}
+                <a class="btn btn-warning btn-sm" href="{{ post.slideurl }}">Slides</a>
+              {% endif %}
+              {% if post.bibtex %}
+                <a class="btn btn-info btn-sm poptext" href="javascript:void(0);" button-text="{{ post.bibtex | escape }}">BibTeX</a>
+              {% endif %}
             </div>
           </div>
-          <hr />
-        {% endfor %}
-      {% endif %}
+        </div>
+        <hr />
+      {% endfor %}
     </div>
   </div>
 </div>
@@ -106,11 +58,12 @@ author_profile: true
   display: flex;
   align-items: center;
 }
-.publication-card .img-fluid {
-  max-height: 150px; /* Limits the image height for consistency */
-  object-fit: cover;
+.publication-card img {
+  max-width: 100%; /* Ensures the image fits the column */
+  height: auto; /* Maintains aspect ratio */
 }
 .buttons a {
   margin-right: 10px;
 }
 </style>
+
