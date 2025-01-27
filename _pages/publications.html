@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: default
 title: "Publications"
 permalink: /publications/
 author_profile: true
@@ -11,26 +11,94 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
+<!-- Publications section -->
+<div class="publications">
+  {% if site.publication_category %}
+    {% for category in site.publication_category %}
+      {% assign title_shown = false %}
+      {% for post in site.publications reversed %}
+        {% if post.category != category[0] %}
+          {% continue %}
+        {% endif %}
+        {% unless title_shown %}
+          <h2>{{ category[1].title }}</h2>
+          <hr />
+          {% assign title_shown = true %}
+        {% endunless %}
+
+        <!-- Begin publication card -->
+        <div class="row gy-2 publication-card">
+          <div class="col-sm-4">
+            {% if post.image %}
+              <a href="javascript: return false" class="pop">
+                <img src="{{ post.image }}" class="paper-diagram">
+              </a>
+            {% endif %}
+          </div>
+          <div class="col-lg-8 align-self-center">
+            <p><strong>{{ post.citation }}</strong></p>
+            <p><i>{{ post.excerpt }}</i></p>
+            
+            <!-- Links to paper, code, and BibTeX -->
+            {% if post.paperurl %}
+              <a class="btn btn-primary" href="{{ post.paperurl }}">Paper</a>
+            {% endif %}
+            {% if post.codeurl %}
+              <a class="btn btn-success" href="{{ post.codeurl }}">Code</a>
+            {% endif %}
+            {% if post.citation %}
+              <a class="btn btn-info poptext" href="javascript:return false;" button-text="{{ post.citation | escape }}">BibTeX</a>
+            {% endif %}
+          </div>
+        </div>
+        <hr />
+        <!-- End publication card -->
+
+      {% endfor %}
     {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+  {% else %}
+    {% for post in site.publications reversed %}
+      <div class="row gy-2 publication-card">
+        <div class="col-sm-4">
+          {% if post.image %}
+            <a href="javascript: return false" class="pop">
+              <img src="{{ post.image }}" class="paper-diagram">
+            </a>
+          {% endif %}
+        </div>
+        <div class="col-lg-8 align-self-center">
+          <p><strong>{{ post.citation }}</strong></p>
+          <p><i>{{ post.excerpt }}</i></p>
+          
+          {% if post.paperurl %}
+            <a class="btn btn-primary" href="{{ post.paperurl }}">Paper</a>
+          {% endif %}
+          {% if post.codeurl %}
+            <a class="btn btn-success" href="{{ post.codeurl }}">Code</a>
+          {% endif %}
+          {% if post.citation %}
+            <a class="btn btn-info poptext" href="javascript:return false;" button-text="{{ post.citation | escape }}">BibTeX</a>
+          {% endif %}
+        </div>
+      </div>
+      <hr />
+    {% endfor %}
+  {% endif %}
+</div>
+
+<!-- Custom CSS for styling -->
+<style>
+.publication-card {
+  margin-bottom: 20px;
+}
+.paper-diagram {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+</style>
 
 
 
