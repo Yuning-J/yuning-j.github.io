@@ -41,14 +41,17 @@ author_profile: true
             
             <!-- Links to paper, code, and BibTeX -->
             {% if post.paperurl %}
-              <a class="btn btn-primary" href="{{ post.paperurl }}">Paper</a>
-            {% endif %}
-            {% if post.codeurl %}
-              <a class="btn btn-success" href="{{ post.codeurl }}">Code</a>
-            {% endif %}
-            {% if post.citation %}
-              <a class="btn btn-info poptext" href="javascript:return false;" button-text="{{ post.citation | escape }}">BibTeX</a>
-            {% endif %}
+    <a class="btn btn-primary" href="{{ post.paperurl }}">Paper</a>
+  {% endif %}
+  {% if post.codeurl %}
+    <a class="btn btn-success" href="{{ post.codeurl }}">Code</a>
+  {% endif %}
+  {% if post.slideurl %}
+    <a class="btn btn-warning" href="{{ post.slideurl }}">Slides</a>
+  {% endif %}
+  {% if post.citation %}
+    <a class="btn btn-info poptext" href="javascript:return false;" button-text="{{ post.citation | escape }}">BibTeX</a>
+  {% endif %}
           </div>
         </div>
         <hr />
