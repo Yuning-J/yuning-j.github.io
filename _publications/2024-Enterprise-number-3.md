@@ -1,4 +1,3 @@
-
 ---
 title: "Enterprise Architecture Modeling for Cybersecurity Analysis in Critical Infrastructures - A Systematic Literature Review"
 collection: publications
