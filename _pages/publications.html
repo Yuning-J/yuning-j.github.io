@@ -5,88 +5,97 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<div id="main" role="main">
+  <!-- Left sidebar with author profile -->
+  {% include sidebar.html %}
 
-{% include base_path %}
+  <!-- Main content area -->
+  <div class="archive">
+    <h1 class="page__title">{{ page.title }}</h1>
+    {% if site.author.googlescholar %}
+      <div class="wordwrap">You can also find my articles on <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.</div>
+    {% endif %}
 
-<!-- Publications section -->
-<div class="publications">
-  {% if site.publication_category %}
-    {% for category in site.publication_category %}
-      {% assign title_shown = false %}
-      {% for post in site.publications reversed %}
-        {% if post.category != category[0] %}
-          {% continue %}
-        {% endif %}
-        {% unless title_shown %}
-          <h2>{{ category[1].title }}</h2>
-          <hr />
-          {% assign title_shown = true %}
-        {% endunless %}
-
-        <!-- Begin publication card -->
-        <div class="row gy-2 publication-card">
-          <div class="col-sm-4">
-            {% if post.image %}
-              <a href="javascript: return false" class="pop">
-                <img src="{{ post.image }}" class="paper-diagram">
-              </a>
+    <!-- Publications section -->
+    <div class="publications">
+      {% if site.publication_category %}
+        {% for category in site.publication_category %}
+          {% assign title_shown = false %}
+          {% for post in site.publications reversed %}
+            {% if post.category != category[0] %}
+              {% continue %}
             {% endif %}
-          </div>
-          <div class="col-lg-8 align-self-center">
-            <p><strong>{{ post.citation }}</strong></p>
-            <p><i>{{ post.excerpt }}</i></p>
-            
-            <!-- Links to paper, code, and BibTeX -->
-            {% if post.paperurl %}
-    <a class="btn btn-primary" href="{{ post.paperurl }}">Paper</a>
-  {% endif %}
-  {% if post.codeurl %}
-    <a class="btn btn-success" href="{{ post.codeurl }}">Code</a>
-  {% endif %}
-  {% if post.slideurl %}
-    <a class="btn btn-warning" href="{{ post.slideurl }}">Slides</a>
-  {% endif %}
-  {% if post.citation %}
-    <a class="btn btn-info poptext" href="javascript:return false;" button-text="{{ post.citation | escape }}">BibTeX</a>
-  {% endif %}
-          </div>
-        </div>
-        <hr />
-        <!-- End publication card -->
+            {% unless title_shown %}
+              <h2>{{ category[1].title }}</h2>
+              <hr />
+              {% assign title_shown = true %}
+            {% endunless %}
 
-      {% endfor %}
-    {% endfor %}
-  {% else %}
-    {% for post in site.publications reversed %}
-      <div class="row gy-2 publication-card">
-        <div class="col-sm-4">
-          {% if post.image %}
-            <a href="javascript: return false" class="pop">
-              <img src="{{ post.image }}" class="paper-diagram">
-            </a>
-          {% endif %}
-        </div>
-        <div class="col-lg-8 align-self-center">
-          <p><strong>{{ post.citation }}</strong></p>
-          <p><i>{{ post.excerpt }}</i></p>
-          
-          {% if post.paperurl %}
-            <a class="btn btn-primary" href="{{ post.paperurl }}">Paper</a>
-          {% endif %}
-          {% if post.codeurl %}
-            <a class="btn btn-success" href="{{ post.codeurl }}">Code</a>
-          {% endif %}
-          {% if post.citation %}
-            <a class="btn btn-info poptext" href="javascript:return false;" button-text="{{ post.citation | escape }}">BibTeX</a>
-          {% endif %}
-        </div>
-      </div>
-      <hr />
-    {% endfor %}
-  {% endif %}
+            <!-- Publication card -->
+            <div class="row gy-2 publication-card">
+              <div class="col-sm-4">
+                {% if post.image %}
+                  <a href="javascript: return false" class="pop">
+                    <img src="{{ post.image }}" class="paper-diagram">
+                  </a>
+                {% endif %}
+              </div>
+              <div class="col-lg-8 align-self-center">
+                <p><strong>{{ post.citation }}</strong></p>
+                <p><i>{{ post.excerpt }}</i></p>
+
+                <!-- Buttons -->
+                {% if post.paperurl %}
+                  <a class="btn btn-primary" href="{{ post.paperurl }}">Paper</a>
+                {% endif %}
+                {% if post.codeurl %}
+                  <a class="btn btn-success" href="{{ post.codeurl }}">Code</a>
+                {% endif %}
+                {% if post.slideurl %}
+                  <a class="btn btn-warning" href="{{ post.slideurl }}">Slides</a>
+                {% endif %}
+                {% if post.citation %}
+                  <a class="btn btn-info poptext" href="javascript:return false;" button-text="{{ post.citation | escape }}">BibTeX</a>
+                {% endif %}
+              </div>
+            </div>
+            <hr />
+          {% endfor %}
+        {% endfor %}
+      {% else %}
+        {% for post in site.publications reversed %}
+          <div class="row gy-2 publication-card">
+            <div class="col-sm-4">
+              {% if post.image %}
+                <a href="javascript: return false" class="pop">
+                  <img src="{{ post.image }}" class="paper-diagram">
+                </a>
+              {% endif %}
+            </div>
+            <div class="col-lg-8 align-self-center">
+              <p><strong>{{ post.citation }}</strong></p>
+              <p><i>{{ post.excerpt }}</i></p>
+
+              <!-- Buttons -->
+              {% if post.paperurl %}
+                <a class="btn btn-primary" href="{{ post.paperurl }}">Paper</a>
+              {% endif %}
+              {% if post.codeurl %}
+                <a class="btn btn-success" href="{{ post.codeurl }}">Code</a>
+              {% endif %}
+              {% if post.slideurl %}
+                <a class="btn btn-warning" href="{{ post.slideurl }}">Slides</a>
+              {% endif %}
+              {% if post.citation %}
+                <a class="btn btn-info poptext" href="javascript:return false;" button-text="{{ post.citation | escape }}">BibTeX</a>
+              {% endif %}
+            </div>
+          </div>
+          <hr />
+        {% endfor %}
+      {% endif %}
+    </div>
+  </div>
 </div>
 
 <!-- Custom CSS for styling -->
@@ -102,6 +111,7 @@ author_profile: true
   padding: 5px;
 }
 </style>
+
 
 
 
