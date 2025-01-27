@@ -8,6 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
+
 [Resume](https://github.com/Yuning-J/yuning-j.github.io/blob/master/files/YuningJiang_Resume.pdf)
 
 ## Education
