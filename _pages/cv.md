@@ -17,28 +17,16 @@ redirect_from:
 
 ## Work Experience
 * OCT.2023 till Now: Research Fellow (National University of Singapore)
-  * Led a team to develop a pipeline for vulnerability retrieval.
-  * Orchestrated a collaborative project with NCS Pte Ltd to develop algorithms for threat hunting.
-  * Performed individual research on risk aggregation for complex systems.
-  * Supervised Bachelor thesis projects.
 
 * OCT.2022 - OCT.2023: Research Fellow (Nanyang Technological University)
-  * Led the development of a Knowledge Graph Based tool to streamline software testing for WeBank.
-  * Supervised Bachelor thesis projects.
 
 * AUG.2016 - JUN.2017: Data Product Manager (Beijing Changjiu Logistics Co., Ltd)
-  * Led a team of 10 in developing data-driven products to predict car dealership loan risks.
   
 
 ## Publications
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-## Talks
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+
+1. \textbf{Jiang, Y.}, Oo, N., Meng, Q., Sikdar, B., \& Lim, H. (2024). \textit{VulRG: Multi-Level Explainable Vulnerability Patch Ranking for Complex Systems Using Graphs} (Paper Under Review)
+
   
 ## Teaching
   <ul>{% for post in site.teaching reversed %}
