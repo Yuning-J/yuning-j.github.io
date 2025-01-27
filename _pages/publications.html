@@ -19,37 +19,55 @@ author_profile: true
     <!-- Publications section -->
     <div class="publications">
       {% for post in site.publications reversed %}
-      <div class="row publication-card mb-4 align-items-center">
-        <!-- Left Column: Image -->
-        {% if post.image %}
-        <div class="col-md-7" style="padding-right: 20px;">
-          <img src="{{ post.image }}" alt="Figure for {{ post.title }}" class="img-fluid rounded shadow">
+        <div class="row publication-card mb-4 align-items-center">
+          {% if post.image %}
+            <!-- Layout with Image -->
+            <div class="col-md-5">
+              <img src="{{ post.image }}" alt="Figure for {{ post.title }}" class="img-fluid rounded shadow">
+            </div>
+            <div class="col-md-7">
+              <p><a href="{{ post.paperurl }}" class="publication-title">{{ post.title }}</a></p>
+              <p>{{ post.citation }}</p>
+              <p><i>{{ post.excerpt }}</i></p>
+              <div class="buttons">
+                {% if post.paperurl %}
+                  <a class="btn btn-primary btn-sm" href="{{ post.paperurl }}">Paper</a>
+                {% endif %}
+                {% if post.codeurl %}
+                  <a class="btn btn-success btn-sm" href="{{ post.codeurl }}">Code</a>
+                {% endif %}
+                {% if post.slideurl %}
+                  <a class="btn btn-warning btn-sm" href="{{ post.slideurl }}">Slides</a>
+                {% endif %}
+                {% if post.bibtex %}
+                  <a class="btn btn-info btn-sm" href="javascript:void(0);" onclick="showBibtex('{{ post.bibtex | escape }}')">BibTeX</a>
+                {% endif %}
+              </div>
+            </div>
+          {% else %}
+            <!-- Layout without Image -->
+            <div class="col-12">
+              <p><a href="{{ post.paperurl }}" class="publication-title">{{ post.title }}</a></p>
+              <p>{{ post.citation }}</p>
+              <p><i>{{ post.excerpt }}</i></p>
+              <div class="buttons">
+                {% if post.paperurl %}
+                  <a class="btn btn-primary btn-sm" href="{{ post.paperurl }}">Paper</a>
+                {% endif %}
+                {% if post.codeurl %}
+                  <a class="btn btn-success btn-sm" href="{{ post.codeurl }}">Code</a>
+                {% endif %}
+                {% if post.slideurl %}
+                  <a class="btn btn-warning btn-sm" href="{{ post.slideurl }}">Slides</a>
+                {% endif %}
+                {% if post.bibtex %}
+                  <a class="btn btn-info btn-sm" href="javascript:void(0);" onclick="showBibtex('{{ post.bibtex | escape }}')">BibTeX</a>
+                {% endif %}
+              </div>
+            </div>
+          {% endif %}
         </div>
-        {% endif %}
-
-        <!-- Right Column: Text and Buttons -->
-        <div class="col-md-5">
-          <p>
-            {{ post.citation | replace: post.title, '<a href="' | append: post.paperurl | append: '" style="color: #007bff; text-decoration: underline;">' | append: post.title | append: '</a>' }}
-          </p>
-          <p>{{ post.excerpt }}</p>
-          <div class="buttons">
-            {% if post.paperurl %}
-              <a class="btn btn-primary btn-sm" href="{{ post.paperurl }}">Paper</a>
-            {% endif %}
-            {% if post.codeurl %}
-              <a class="btn btn-success btn-sm" href="{{ post.codeurl }}">Code</a>
-            {% endif %}
-            {% if post.slideurl %}
-              <a class="btn btn-warning btn-sm" href="{{ post.slideurl }}">Slides</a>
-            {% endif %}
-            {% if post.bibtex %}
-              <a class="btn btn-info btn-sm" href="javascript:void(0);" onclick="showBibtex('{{ post.bibtex | escape }}')">BibTeX</a>
-            {% endif %}
-          </div>
-        </div>
-      </div>
-      <hr />
+        <hr />
       {% endfor %}
     </div>
   </div>
@@ -83,11 +101,11 @@ author_profile: true
   max-width: 100%;
   height: auto;
 }
-.publication-card .col-md-5 {
-  padding-right: 20px; /* Add space between image and text */
+.publication-card .col-md-7, .publication-card .col-md-5 {
+  padding-right: 20px;
 }
-.publication-card .col-md-7 {
-  padding-left: 10px;
+.publication-card .col-12 {
+  padding: 10px 20px;
 }
 .buttons a {
   margin-right: 10px;
