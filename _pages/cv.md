@@ -27,54 +27,25 @@ redirect_from:
 
 - Meng, Q., **Jiang, Y.**, Oo, N., Sikdar, B., & Lim, H. (2024). *M^2ASK: A Correlation-Based Multi-Step Attack Scenario Detection Framework Using MITRE ATT&CK Mapping* (Poster Accepted in ACM CCS 2024).
 
-- **Jiang, Y.**, Jeusfeld, M., Mosaad, M., & Oo, N. (2024).  
-  *Enterprise architecture modeling for cybersecurity analysis in critical infrastructures: A systematic literature review.*  
-  _International Journal of Critical Infrastructure Protection_, 100700.  
-  [Paper Link](https://doi.org/10.1016/j.ijcip.2024.100700)
+- **Jiang, Y.**, Jeusfeld, M., Mosaad, M., & Oo, N. (2024). Enterprise architecture modeling for cybersecurity analysis in critical infrastructures: A systematic literature review. *International Journal of Critical Infrastructure Protection, 100700.[https://doi.org/10.1016/j.ijcip.2024.100700](https://doi.org/10.1016/j.ijcip.2024.100700)
 
-- **Jiang, Y.**, Jeusfeld, M., Ding, J., & Sandahl, E. (2023).  
-  *Model-Based Cybersecurity Analysis: Extending Enterprise Modeling to Critical Infrastructure Cybersecurity.*  
-  _Business & Information Systems Engineering_, 1-34.  
-  [Paper Link](https://link.springer.com/article/10.1007/s12599-023-00811-0)
+- **Jiang, Y.**, Wang, W., Ding, J., Lu, X., & Jing, Y. (2024). Leveraging digital twin technology for enhanced cybersecurity in cyber–physical production systems. *Future Internet, 16*(4), 134. [https://doi.org/10.3390/fi16040134](https://doi.org/10.3390/fi16040134)
 
-- **Jiang, Y.** (2022).  
-  *Vulnerability Analysis for Critical Infrastructures.*  
-  [Thesis Link](https://www.diva-portal.org/smash/get/diva2:1680358/FULLTEXT05)
+- **Jiang, Y.**, Jeusfeld, M., Ding, J., & Sandahl, E. (2023). Model-based cybersecurity analysis: Extending enterprise modeling to critical infrastructure cybersecurity. *Business & Information Systems Engineering, 65*(1), 1–34. [https://link.springer.com/article/10.1007/s12599-023-00811-0](https://link.springer.com/article/10.1007/s12599-023-00811-0)
 
-- **Jiang, Y.**, & Atif, Y. (2022).  
-  *Towards automatic discovery and assessment of vulnerability severity in cyber-physical systems.*  
-  _Array_, 100209.  
-  [Paper Link](https://doi.org/10.1016/j.array.2022.100209)
+- **Jiang, Y.**, & Atif, Y. (2022). Towards automatic discovery and assessment of vulnerability severity in cyber-physical systems. *Array, 13,* 100209. [https://doi.org/10.1016/j.array.2022.100209](https://doi.org/10.1016/j.array.2022.100209)
 
-- **Jiang, Y.**, & Atif, Y. (2021).  
-  *A Selective Ensemble Model for Cognitive Cybersecurity Analysis.*  
-  _Journal of Network and Computer Applications, 193, 103210._  
-  [Paper Link](https://www.sciencedirect.com/science/article/pii/S1084804521002125)
+- **Jiang, Y.**, & Atif, Y. (2021). A selective ensemble model for cognitive cybersecurity analysis. *Journal of Network and Computer Applications, 193,* 103210. [https://doi.org/10.1016/j.jnca.2021.103210](https://doi.org/10.1016/j.jnca.2021.103210)
 
-- **Jiang, Y.**, Jeusfeld, M., & Ding, J. (2021, August).  
-  *Evaluating the Data Inconsistency of Open-Source Vulnerability Repositories.*  
-  _4th International Workshop on Cyber Threat Intelligence Management (CyberTIM 2021) at ARES 2021._  
-  [Paper Link](https://dl.acm.org/doi/10.1145/3465481.3470093)
+- **Jiang, Y.**, Jeusfeld, M., & Ding, J. (2021, August). Evaluating the data inconsistency of open-source vulnerability repositories. In *Proceedings of the 4th International Workshop on Cyber Threat Intelligence Management (CyberTIM 2021),* co-located with the *16th International Conference on Availability, Reliability, and Security (ARES 2021).*  [https://doi.org/10.1145/3465481.3470093](https://doi.org/10.1145/3465481.3470093)
 
-- **Jiang, Y.**, & Atif, Y. (2020, November).  
-  *An Approach to Discover and Assess Vulnerability Severity Automatically in Cyber-Physical Systems.*  
-  _13th International Conference on Security of Information and Networks._  
-  [Paper Link](https://dl.acm.org/doi/10.1145/3433174.3433612)
+- **Jiang, Y.**, & Atif, Y. (2020, November). An approach to discover and assess vulnerability severity automatically in cyber-physical systems. In *Proceedings of the 13th International Conference on Security of Information and Networks (SIN 2020),* pp. 1–8.  [https://doi.org/10.1145/3433174.3433612](https://doi.org/10.1145/3433174.3433612)
 
-- **Jiang, Y.**, Atif, Y., Ding, J., & Wang, W. (2019, October).  
-  *A Semantic Framework with Humans in the Loop for Vulnerability-Assessment in Cyber-Physical Production Systems.*  
-  _International Conference on Risks and Security of Internet and Systems._  
-  [Paper Link](https://link.springer.com/chapter/10.1007/978-3-030-41568-6_9)
+- **Jiang, Y.**, Atif, Y., Ding, J., & Wang, W. (2019, October). A semantic framework with humans in the loop for vulnerability-assessment in cyber-physical production systems. In *Proceedings of the International Conference on Risks and Security of Internet and Systems (CRiSIS 2019),* pp. 128–143. Cham: Springer. [https://doi.org/10.1007/978-3-030-41568-6_9](https://doi.org/10.1007/978-3-030-41568-6_9)
 
-- **Jiang, Y.**, Atif, Y., & Ding, J. (2019, September).  
-  *Cyber-Physical Systems Security Based on a Cross-Linked and Correlated Vulnerability Database.*  
-  _International Conference on Critical Information Infrastructures Security._  
-  [Paper Link](https://link.springer.com/chapter/10.1007/978-3-030-37670-3_6)
+- **Jiang, Y.**, Atif, Y., & Ding, J. (2019, September). Cyber-physical systems security based on a cross-linked and correlated vulnerability database. In *Proceedings of the International Conference on Critical Information Infrastructures Security (CRITIS 2019),* pp. 71–82. Cham: Springer. [https://doi.org/10.1007/978-3-030-37670-3_6](https://doi.org/10.1007/978-3-030-37670-3_6)
 
-- **Jiang, Y.**, Jeusfeld, M., Atif, Y., Ding, J., Brax, C., & Nero, E. (2018, October).  
-  *A Language and Repository for Cyber Security of Smart Grids.*  
-  _2018 IEEE 22nd International Enterprise Distributed Object Computing Conference (EDOC)._  
-  [Paper Link](https://ieeexplore.ieee.org/document/8536160)
+- **Jiang, Y.**, Jeusfeld, M., Atif, Y., Ding, J., Brax, C., & Nero, E. (2018, October). A language and repository for cybersecurity of smart grids. In *Proceedings of the 2018 IEEE 22nd International Enterprise Distributed Object Computing Conference (EDOC 2018),* pp. 164–170. Piscataway, NJ: IEEE. [https://doi.org/10.1109/EDOC.2018.00029](https://doi.org/10.1109/EDOC.2018.00029)
 
   
 ## Teaching
