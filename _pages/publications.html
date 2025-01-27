@@ -22,13 +22,13 @@ author_profile: true
     <div class="row publication-card mb-4 align-items-center">
       <!-- Left Column: Image -->
       {% if post.image %}
-        <div class="col-md-6" style="padding-right: 20px;">
+        <div class="col-md-7" style="padding-right: 20px;">
           <img src="{{ post.image }}" alt="Figure for {{ post.title }}" class="img-fluid rounded shadow">
         </div>
       {% endif %}
 
       <!-- Right Column: Text and Buttons -->
-      <div class="col-md-6">
+      <div class="col-md-5">
             <p>{{ post.citation }}</p>
             <p><i>{{ post.excerpt }}</i></p>
             <div class="buttons">
