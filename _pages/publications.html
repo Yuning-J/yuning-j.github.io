@@ -32,20 +32,17 @@ author_profile: true
             {% endunless %}
 
             <!-- Publication card -->
-            <div class="row gy-3 publication-card">
-              <div class="col-md-4">
-                {% if post.image %}
-                  <a href="javascript: return false" class="pop">
-                    <img src="{{ post.image }}" class="img-fluid paper-diagram" alt="Figure for {{ post.title }}">
-                  </a>
-                {% endif %}
-              </div>
-              <div class="col-md-8 align-self-center">
-                <!-- Title -->
+            <div class="row publication-card mb-4">
+              {% if post.image %}
+                <div class="col-md-4">
+                  <img src="{{ post.image }}" alt="Figure for {{ post.title }}" class="img-fluid rounded">
+                </div>
+              {% endif %}
+              <div class="col-md-8">
+                <!-- Title and Citation -->
                 <p>{{ post.citation }}</p>
                 <!-- Excerpt -->
                 <p><i>{{ post.excerpt }}</i></p>
-
                 <!-- Buttons -->
                 <div class="buttons">
                   {% if post.paperurl %}
@@ -57,8 +54,8 @@ author_profile: true
                   {% if post.slideurl %}
                     <a class="btn btn-warning btn-sm" href="{{ post.slideurl }}">Slides</a>
                   {% endif %}
-                  {% if post.citation %}
-                    <a class="btn btn-info btn-sm poptext" href="javascript:return false;" button-text="{{ post.citation | escape }}">BibTeX</a>
+                  {% if post.bibtex %}
+                    <a class="btn btn-info btn-sm poptext" href="javascript:void(0);" button-text="{{ post.bibtex | escape }}">BibTeX</a>
                   {% endif %}
                 </div>
               </div>
@@ -68,20 +65,17 @@ author_profile: true
         {% endfor %}
       {% else %}
         {% for post in site.publications reversed %}
-          <div class="row gy-3 publication-card">
-            <div class="col-md-4">
-              {% if post.image %}
-                <a href="javascript: return false" class="pop">
-                  <img src="{{ post.image }}" class="img-fluid paper-diagram" alt="Figure for {{ post.title }}">
-                </a>
-              {% endif %}
-            </div>
-            <div class="col-md-8 align-self-center">
-              <!-- Title -->
+          <div class="row publication-card mb-4">
+            {% if post.image %}
+              <div class="col-md-4">
+                <img src="{{ post.image }}" alt="Figure for {{ post.title }}" class="img-fluid rounded">
+              </div>
+            {% endif %}
+            <div class="col-md-8">
+              <!-- Title and Citation -->
               <p>{{ post.citation }}</p>
               <!-- Excerpt -->
               <p><i>{{ post.excerpt }}</i></p>
-
               <!-- Buttons -->
               <div class="buttons">
                 {% if post.paperurl %}
@@ -93,8 +87,8 @@ author_profile: true
                 {% if post.slideurl %}
                   <a class="btn btn-warning btn-sm" href="{{ post.slideurl }}">Slides</a>
                 {% endif %}
-                {% if post.citation %}
-                  <a class="btn btn-info btn-sm poptext" href="javascript:return false;" button-text="{{ post.citation | escape }}">BibTeX</a>
+                {% if post.bibtex %}
+                  <a class="btn btn-info btn-sm poptext" href="javascript:void(0);" button-text="{{ post.bibtex | escape }}">BibTeX</a>
                 {% endif %}
               </div>
             </div>
@@ -106,20 +100,17 @@ author_profile: true
   </div>
 </div>
 
-<!-- Custom CSS for styling -->
+<!-- Custom CSS for Styling -->
 <style>
 .publication-card {
-  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
 }
-.paper-diagram {
-  max-width: 100%; /* Makes the image responsive */
-  height: auto;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
+.publication-card .img-fluid {
+  max-height: 150px; /* Limits the image height for consistency */
+  object-fit: cover;
 }
 .buttons a {
   margin-right: 10px;
 }
 </style>
-
