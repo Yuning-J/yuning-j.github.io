@@ -26,8 +26,14 @@ author_profile: true
               <img src="{{ post.image }}" alt="Figure for {{ post.title }}" class="img-fluid rounded shadow">
             </div>
             <div class="col-md-7">
-              <p><a href="{{ post.paperurl }}" class="publication-title">{{ post.title }}</a></p>
-              <p>{{ post.citation }}</p>
+              <p>
+                <a href="{{ post.paperurl }}" class="publication-title" style="color: #007bff; text-decoration: underline;">
+                  {{ post.title }}
+                </a>
+              </p>
+              <p>
+                {{ post.citation | replace: post.title, '<a href="' | append: post.paperurl | append: '" style="color: #007bff; text-decoration: underline;">' | append: post.title | append: '</a>' }}
+              </p>
               <p><i>{{ post.excerpt }}</i></p>
               <div class="buttons">
                 {% if post.paperurl %}
@@ -47,8 +53,9 @@ author_profile: true
           {% else %}
             <!-- Layout without Image -->
             <div class="col-12">
-              <p><a href="{{ post.paperurl }}" class="publication-title">{{ post.title }}</a></p>
-              <p>{{ post.citation }}</p>
+              <p>
+                {{ post.citation | replace: post.title, '<a href="' | append: post.paperurl | append: '" style="color: #007bff; text-decoration: underline;">' | append: post.title | append: '</a>' }}
+              </p>
               <p><i>{{ post.excerpt }}</i></p>
               <div class="buttons">
                 {% if post.paperurl %}
@@ -72,6 +79,7 @@ author_profile: true
     </div>
   </div>
 </div>
+
 
 <!-- Modal for BibTeX -->
 <div id="bibtexModal" class="modal fade" tabindex="-1" aria-hidden="true">
