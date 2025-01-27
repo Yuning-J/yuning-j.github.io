@@ -25,7 +25,7 @@ redirect_from:
 
 ## Publications
 
-- Meng, Q., **Jiang, Y.**, Oo, N., Sikdar, B., & Lim, H. (2024). *$M^2ASK$: A Correlation-Based Multi-Step Attack Scenario Detection Framework Using MITRE ATT&CK Mapping* (Poster Accepted in ACM CCS 2024).
+- Meng, Q., **Jiang, Y.**, Oo, N., Sikdar, B., & Lim, H. (2024). *M^2ASK: A Correlation-Based Multi-Step Attack Scenario Detection Framework Using MITRE ATT&CK Mapping* (Poster Accepted in ACM CCS 2024).
 
 - **Jiang, Y.**, Jeusfeld, M., Mosaad, M., & Oo, N. (2024).  
   *Enterprise architecture modeling for cybersecurity analysis in critical infrastructures: A systematic literature review.*  
