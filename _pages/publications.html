@@ -41,7 +41,7 @@ author_profile: true
                 <a class="btn btn-warning btn-sm" href="{{ post.slideurl }}">Slides</a>
               {% endif %}
               {% if post.bibtex %}
-                <a class="btn btn-info btn-sm poptext" href="javascript:void(0);" button-text="{{ post.bibtex | escape }}">BibTeX</a>
+              <a class="btn btn-info btn-sm" href="javascript:void(0);" onclick="showBibtex('{{ post.bibtex | escape }}')">BibTeX</a>
               {% endif %}
             </div>
           </div>
