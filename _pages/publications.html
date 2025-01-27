@@ -41,7 +41,9 @@ author_profile: true
                 {% endif %}
               </div>
               <div class="col-lg-8 align-self-center">
-                <p><strong>{{ post.citation }}</strong></p>
+                <!-- Title without bold -->
+                <p>{{ post.citation }}</p>
+                <!-- Excerpt -->
                 <p><i>{{ post.excerpt }}</i></p>
 
                 <!-- Buttons -->
@@ -73,7 +75,9 @@ author_profile: true
               {% endif %}
             </div>
             <div class="col-lg-8 align-self-center">
-              <p><strong>{{ post.citation }}</strong></p>
+              <!-- Title without bold -->
+              <p>{{ post.citation }}</p>
+              <!-- Excerpt -->
               <p><i>{{ post.excerpt }}</i></p>
 
               <!-- Buttons -->
@@ -111,7 +115,3 @@ author_profile: true
   padding: 5px;
 }
 </style>
-
-
-
-
