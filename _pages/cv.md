@@ -27,7 +27,9 @@ You can download my full CV by clicking the link here: [Download Resume]([path-t
 * OCT.2022 - OCT.2023: Research Fellow (Nanyang Technological University)
 
 * AUG.2016 - JUN.2017: Data Product Manager (Beijing Changjiu Logistics Co., Ltd)
-  
+
+## Community 
+* I am a reguar reviewer for multiple cybersecurity and digital data driven jounrals and conferences, including Business & Information Systems Engineering, IEEE Transactions on Intelligent Vehicles, Computers & Security, andSwedish Production Symposium. I am also guest editor for Journal of Intelligent Communication.
 
 ## Publications
 
@@ -59,22 +61,3 @@ You can download my full CV by clicking the link here: [Download Resume]([path-t
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-## Service 
-* Reviewer for:
-  * Business & Information Systems Engineering (2023)
-  * IEEE Transactions on Intelligent Vehicles (2023)
-  * Swedish Production Symposium (2022)
-  * Computers & Security (2021)
-
-* Guest Editor for:
-  * Journal of Intelligent Communication (2024)
- 
-* Co-Organizer for:
-  * Special Session of "Digital Games as Socio/Technical Systems" in  IEEE International Conference on e-Business Engineering (ICEBE)
- 
-## Honors and Awards
-* 2022 Länsförsäkringar Skaraborg Prize, issued by Skaraborgs Academy on Outstanding PhD Thesis.
-* 2022 Vinnova funding on applied research validation, University of Skövde, $5,000.
-* 2019 Young CRITIS Award, issued by the 14th International Conference on Critical Information Infrastructure Security.
-* 2019 IPSI (Industrial PhD School in Informatics) Scholarship, University of Skövde, $10,000.
-* 2017 European Union - Internal Security Fund.
