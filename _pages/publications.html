@@ -38,9 +38,6 @@ author_profile: true
                 {% if post.slideurl %}
                   <a class="btn btn-warning btn-sm" href="{{ post.slideurl }}">Slides</a>
                 {% endif %}
-                {% if post.presentationurl %}
-    <a class="btn btn-danger btn-sm" href="{{ post.presentationurl }}">Presentation</a>
-  {% endif %}
                 {% if post.bibtex %}
                   <a class="btn btn-info btn-sm" href="javascript:void(0);" onclick="showBibtex('{{ post.bibtex | escape }}')">BibTeX</a>
                 {% endif %}
@@ -51,6 +48,7 @@ author_profile: true
             <div class="col-12">
               <p>{{ post.citation }}</p>
               <p><i>{{ post.excerpt }}</i></p>
+              <p>{{ post.excerpt }}</p>
               <div class="buttons">
                 {% if post.paperurl %}
                   <a class="btn btn-primary btn-sm" href="{{ post.paperurl }}">Paper</a>
@@ -61,9 +59,6 @@ author_profile: true
                 {% if post.slideurl %}
                   <a class="btn btn-warning btn-sm" href="{{ post.slideurl }}">Slides</a>
                 {% endif %}
-                {% if post.presentationurl %}
-    <a class="btn btn-danger btn-sm" href="{{ post.presentationurl }}">Presentation</a>
-  {% endif %}
                 {% if post.bibtex %}
                   <a class="btn btn-info btn-sm" href="javascript:void(0);" onclick="showBibtex('{{ post.bibtex | escape }}')">BibTeX</a>
                 {% endif %}
@@ -118,17 +113,10 @@ author_profile: true
 
 <script>
   function showBibtex(bibtex) {
-    console.log("BibTeX content:", bibtex); // Debugging output
-
-    if (!bibtex) {
-      alert("No BibTeX entry found for this publication.");
-      return;
-    }
-
-    // Populate the BibTeX content in the modal
+    // Populate the BibTeX content
     document.getElementById('bibtexContent').textContent = bibtex;
 
-    // Display the modal using Bootstrap's modal API
+    // Use Bootstrap modal to display the BibTeX content
     var bibtexModal = new bootstrap.Modal(document.getElementById('bibtexModal'));
     bibtexModal.show();
   }
