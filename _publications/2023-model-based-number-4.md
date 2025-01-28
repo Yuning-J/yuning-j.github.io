@@ -10,17 +10,5 @@ audiosurl: "https://notebooklm.google.com/notebook/9222ead8-1b1a-4893-b464-016b3
 paperurl: "https://doi.org/10.1007/s12599-023-00811-0"
 image: "/assets/figure/TaxonomyExample.png"
 citation: "Jiang, Y., Jeusfeld, M. A., Ding, J., & Sandahl, E. (2023). 'Model-Based Cybersecurity Analysis: Extending Enterprise Modeling to Critical Infrastructure Cybersecurity.' *Business & Information Systems Engineering*, 65(6), 643–676."
-bibtex: |
-  @article{jiang2023model,
-    title={Model-Based Cybersecurity Analysis: Extending Enterprise Modeling to Critical Infrastructure Cybersecurity},
-    author={Jiang, Yuning and Jeusfeld, Manfred A and Ding, Jianguo and Sandahl, Elin},
-    journal={Business \& Information Systems Engineering},
-    volume={65},
-    number={6},
-    pages={643--676},
-    year={2023},
-    publisher={Springer},
-    doi={https://doi.org/10.1007/s12599-023-00811-0}
-  }
 ---
 
