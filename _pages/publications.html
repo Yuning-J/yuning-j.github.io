@@ -42,6 +42,9 @@ author_profile: true
                 {% if post.slideurl %}
                   <a class="btn btn-warning btn-sm" href="{{ post.slideurl }}">Slides</a>
                 {% endif %}
+                 {% if post.presentationurl %}
+    <a class="btn btn-danger btn-sm" href="{{ post.presentationurl }}">Presentation</a>
+  {% endif %}
                 {% if post.bibtex %}
                   <a class="btn btn-info btn-sm" href="javascript:void(0);" onclick="showBibtex('{{ post.bibtex | escape }}')">BibTeX</a>
                 {% endif %}
