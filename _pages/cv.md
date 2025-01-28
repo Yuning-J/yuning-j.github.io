@@ -15,23 +15,23 @@ You can download my full CV by clicking the link here: [Download Resume]([path-t
 
 
 
-## Education
+### Education
 * Ph.D in Informatics, University of Skövde, 2022 
 * MSc in Electronic Engineering with Business Management, King's College London, 2016
 * BSc (Eng) in Electronics and Information, Beihang University, 2014
 * Exchange, Ecole Supérieure Des Techniques Aéronautiques Et De Construction Automobile, 2014
 
-## Work Experience
+### Work Experience
 * OCT.2023 till Now: Research Fellow (National University of Singapore)
 
 * OCT.2022 - OCT.2023: Research Fellow (Nanyang Technological University)
 
 * AUG.2016 - JUN.2017: Data Product Manager (Beijing Changjiu Logistics Co., Ltd)
 
-## Community 
+### Community 
 * I am a reguar reviewer for multiple cybersecurity and digital data driven jounrals and conferences, including Business & Information Systems Engineering, IEEE Transactions on Intelligent Vehicles, Computers & Security, andSwedish Production Symposium. I am also guest editor for Journal of Intelligent Communication.
 
-## Publications
+### Publications
 
 - Meng, Q., **Jiang, Y.**, Oo, N., Sikdar, B., & Lim, H. (2024). *M^2ASK: A Correlation-Based Multi-Step Attack Scenario Detection Framework Using MITRE ATT&CK Mapping* (Poster Accepted in ACM CCS 2024).
 
@@ -56,7 +56,7 @@ You can download my full CV by clicking the link here: [Download Resume]([path-t
 - **Jiang, Y.**, Jeusfeld, M., Atif, Y., Ding, J., Brax, C., & Nero, E. (2018, October). A language and repository for cybersecurity of smart grids. In *Proceedings of the 2018 IEEE 22nd International Enterprise Distributed Object Computing Conference (EDOC 2018),* pp. 164–170. Piscataway, NJ: IEEE. [https://doi.org/10.1109/EDOC.2018.00029](https://doi.org/10.1109/EDOC.2018.00029)
 
   
-## Teaching
+### Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
