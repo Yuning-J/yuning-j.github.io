@@ -89,6 +89,7 @@ author_profile: true
   </div>
 </div>
 
+
 <!-- Custom CSS -->
 <style>
 .publication-card {
@@ -112,10 +113,17 @@ author_profile: true
 
 <script>
   function showBibtex(bibtex) {
-    // Populate the BibTeX content
+    console.log("BibTeX content:", bibtex); // Debugging output
+
+    if (!bibtex) {
+      alert("No BibTeX entry found for this publication.");
+      return;
+    }
+
+    // Populate the BibTeX content in the modal
     document.getElementById('bibtexContent').textContent = bibtex;
 
-    // Use Bootstrap modal to display the BibTeX content
+    // Display the modal using Bootstrap's modal API
     var bibtexModal = new bootstrap.Modal(document.getElementById('bibtexModal'));
     bibtexModal.show();
   }
