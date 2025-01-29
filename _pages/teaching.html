@@ -1,12 +1,26 @@
 ---
-layout: archive
-title: "Teaching"
-permalink: /teaching/
-author_profile: true
+layout: default
 ---
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<div id="main" role="main">
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if page.title %}
+      <h1 class="page__title custom-title">{{ page.title }}</h1>
+    {% endif %}
+
+    <section class="page__content" itemprop="text">
+      {{ content }}
+    </section>
+  </article>
+</div>
+
+<style>
+  .custom-title {
+    font-size: 1.5rem !important; /* Smaller font size */
+    color: darkgreen !important;  /* Dark green color */
+    font-weight: bold !important;
+    margin-bottom: 1rem;          /* Optional: Add spacing */
+  }
+</style>
