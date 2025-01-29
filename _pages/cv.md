@@ -57,7 +57,24 @@ You can download my full CV here: [Download Resume]([path-to-your-resume/resume.
 
   
 ### Teaching
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+
+#### Teaching Assistant  
+**Nanyang Technological University, Singapore**  
+**Oct 2022 – Oct 2023**  
+- Supervised undergraduate thesis projects.
+
+#### Lecturer  
+**University of Skövde, Sweden**  
+**Aug 2017 – Sep 2022**  
+- *Cybersecurity for IoT and Critical Infrastructures* (Master Course Module Co-Leader)  
+- *Information and Cyber Security: Principles and Practices* (Master Course Module Leader)  
+- *Object-Oriented Programming (OOP)* (Undergraduate Course Module Co-Leader)  
+- *Algorithm and Data Structure* (Undergraduate Course Module)  
+
+#### Teaching Training and Certification  
+**University of Skövde, Sweden**  
+**Aug 2017 – Sep 2022**  
+- Completed training for Higher Education I and II
+
+
   
