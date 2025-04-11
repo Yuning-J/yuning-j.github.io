@@ -7,8 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-
-I am a Postdoctoral Research Fellow at the National University of Singapore, specializing in cybersecurity, data analytics, and information systems. With over eight years of research experience, I lead projects on vulnerability retrieval, graph-based attack modeling, and AI-driven threat intelligence.
+Innovative computer scientist with over nine years of experience in cybersecurity and data-driven systems. Specializing in vulnerability analysis, threat hunting, and AI-driven optimization, I am a Postdoctoral Research Fellow at National University of Singapore, developing hybrid LLM and graph-based solutions to enhance system security. Passionate about bridging academia and industry to deliver impactful, scalable technologies.
 
 
 ## Research
