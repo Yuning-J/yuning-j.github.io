@@ -35,8 +35,14 @@ author_profile: true
                 {% if post.codeurl %}
                   <a class="btn btn-success btn-sm" href="{{ post.codeurl }}">Code</a>
                 {% endif %}
+                {% if post.presentationurl %}
+                  <a class="btn btn-danger btn-sm" href="{{ post.presentationurl }}">Presentation</a>
+                {% endif %}
                 {% if post.slideurl %}
                   <a class="btn btn-warning btn-sm" href="{{ post.slideurl }}">Slides</a>
+                {% endif %}
+                {% if post.videourl %}
+                  <a class="btn btn-secondary btn-sm" href="{{ post.videourl }}">Video</a>
                 {% endif %}
                 {% if post.bibtex %}
                   <a class="btn btn-info btn-sm" href="javascript:void(0);" onclick="showBibtex('{{ post.bibtex | escape }}')">BibTeX</a>
@@ -47,7 +53,7 @@ author_profile: true
             <!-- Layout without Image -->
             <div class="col-12">
               <p>{{ post.citation }}</p>
-              <p><i>{{ post.excerpt }}</i></p>
+              <p>{{ post.excerpt }}</p>
               <div class="buttons">
                 {% if post.paperurl %}
                   <a class="btn btn-primary btn-sm" href="{{ post.paperurl }}">Paper</a>
@@ -55,8 +61,14 @@ author_profile: true
                 {% if post.codeurl %}
                   <a class="btn btn-success btn-sm" href="{{ post.codeurl }}">Code</a>
                 {% endif %}
+                {% if post.presentationurl %}
+                  <a class="btn btn-danger btn-sm" href="{{ post.presentationurl }}">Presentation</a>
+                {% endif %}
                 {% if post.slideurl %}
                   <a class="btn btn-warning btn-sm" href="{{ post.slideurl }}">Slides</a>
+                {% endif %}
+                {% if post.videourl %}
+                  <a class="btn btn-secondary btn-sm" href="{{ post.videourl }}">Video</a>
                 {% endif %}
                 {% if post.bibtex %}
                   <a class="btn btn-info btn-sm" href="javascript:void(0);" onclick="showBibtex('{{ post.bibtex | escape }}')">BibTeX</a>
