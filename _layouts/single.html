@@ -27,14 +27,14 @@ layout: default
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
           {% if page.title %}
-    <h1 class="page__title custom-title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
-  {% endif %}
-  {% if page.read_time %}
-    <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
-  {% endif %}
-  {% if page.modified %}
-    <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
-  {% endif %}
+            <h1 class="page__title custom-title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
+          {% endif %}
+          {% if page.read_time %}
+            <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+          {% endif %}
+          {% if page.modified %}
+            <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
+          {% endif %}
         {% if page.collection == 'teaching' %}
           <h1 class="page__title custom-title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
@@ -47,18 +47,57 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
+        <!-- Publication Abstract/Excerpt -->
+        {% if page.excerpt and page.collection == 'publications' %}
+          <div class="publication-abstract">
+            <h3>Abstract</h3>
+            <p>{{ page.excerpt }}</p>
+          </div>
+        {% endif %}
+        
         {{ content }}
 
-        {% if page.citation and page.paperurl and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.citation and page.paperurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a></p>
-        {% elsif page.citation and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.citation %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
-        {% elsif page.slidesurl %}
-          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
+        <!-- Publication Resources -->
+        {% if page.collection == 'publications' %}
+          <div class="publication-resources">
+            {% if page.citation %}
+              <p class="publication-citation">Recommended citation: {{ page.citation }}</p>
+            {% endif %}
+            
+            <div class="publication-buttons">
+              {% if page.paperurl %}
+                <a href="{{ page.paperurl }}" class="btn btn-primary btn-sm">Paper</a>
+              {% endif %}
+              {% if page.codeurl %}
+                <a href="{{ page.codeurl }}" class="btn btn-success btn-sm">Code</a>
+              {% endif %}
+              {% if page.presentationurl %}
+                <a href="{{ page.presentationurl }}" class="btn btn-danger btn-sm">Presentation</a>
+              {% endif %}
+              {% if page.slideurl %}
+                <a href="{{ page.slideurl }}" class="btn btn-warning btn-sm">Slides</a>
+              {% endif %}
+              {% if page.videourl %}
+                <a href="{{ page.videourl }}" class="btn btn-secondary btn-sm">Video</a>
+              {% endif %}
+              {% if page.bibtex %}
+                <a href="javascript:void(0);" onclick="showBibtex('{{ page.bibtex | escape }}')" class="btn btn-info btn-sm">BibTeX</a>
+              {% endif %}
+            </div>
+          </div>
+        {% else %}
+          <!-- Legacy code for non-publication pages -->
+          {% if page.citation and page.paperurl and page.slidesurl %}
+            <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
+          {% elsif page.citation and page.paperurl %}
+            <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a></p>
+          {% elsif page.citation and page.slidesurl %}
+            <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a></p>
+          {% elsif page.citation %}
+            <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
+          {% elsif page.slidesurl %}
+            <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
+          {% endif %}
         {% endif %}
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
@@ -82,13 +121,75 @@ layout: default
   </article>
 
   <style>
- .custom-title {
-  font-size: 1.5rem !important;
-  color: darkgreen !important;
-  font-weight: bold !important;
-}
-</style>
+    .custom-title {
+      font-size: 1.5rem !important;
+      color: darkgreen !important;
+      font-weight: bold !important;
+    }
+    
+    .publication-abstract {
+      margin: 20px 0;
+      padding: 15px;
+      background-color: #f8f9fa;
+      border-left: 4px solid #28a745;
+      border-radius: 3px;
+    }
+    
+    .publication-abstract h3 {
+      margin-top: 0;
+      font-size: 1.2rem;
+      color: #333;
+    }
+    
+    .publication-resources {
+      margin-top: 30px;
+      padding-top: 15px;
+      border-top: 1px solid #eee;
+    }
+    
+    .publication-citation {
+      font-style: italic;
+      margin-bottom: 15px;
+    }
+    
+    .publication-buttons {
+      margin-bottom: 20px;
+    }
+    
+    .publication-buttons .btn {
+      margin-right: 8px;
+      margin-bottom: 8px;
+    }
+  </style>
 
+  <!-- BibTeX Modal -->
+  <div id="bibtexModal" class="modal fade" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">BibTeX</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <pre id="bibtexContent"></pre>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function showBibtex(bibtex) {
+      // Populate the BibTeX content
+      document.getElementById('bibtexContent').textContent = bibtex;
+      
+      // Use Bootstrap modal to display the BibTeX content
+      var bibtexModal = new bootstrap.Modal(document.getElementById('bibtexModal'));
+      bibtexModal.show();
+    }
+  </script>
 
   {% comment %}<!-- only show related on a post page when not disabled -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
