@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-You can download my full CV here: [Download Resume]([path-to-your-resume/resume.pdf](https://github.com/Yuning-J/yuning-j.github.io/blob/master/files/YuningJiang_Resume.pdf)){: .btn .btn-primary }
+You can download my full CV here: [Download Resume](https://github.com/Yuning-J/yuning-j.github.io/blob/master/files/YuningJiang_Resume.pdf){: .btn .btn-primary }
 
 
 
