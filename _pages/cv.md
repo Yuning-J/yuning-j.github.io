@@ -33,6 +33,11 @@ You can download my full CV here: [Download Resume](https://github.com/Yuning-J/
 
 ### Publications
 
+- **Jiang, Y.**, Wang, H., Meng, Q., Oo, N., Lim, H., & Sikdar, B. (2025). *VulCPE: Context-Aware Cybersecurity Vulnerability Retrieval and Management* (Under review). [https://arxiv.org/abs/2505.13895](https://arxiv.org/abs/2505.13895)
+- **Jiang, Y.**, Oo, N., Meng, Q., Sikdar, B., & Lim, H. (2025). *VulRG: Multi-Level Explainable Vulnerability Patch Ranking for Complex Systems Using Graphs* (Under review). [https://arxiv.org/abs/2502.11143](https://arxiv.org/abs/2502.11143)
+- **Jiang, Y.**, Oo, N., Meng, Q., Sikdar, B., & Lim, H. (2025). *MITRE ATT\&CK Application in Threat Intelligence and The Way Forward* (Under review). [https://arxiv.org/abs/2502.10825](https://arxiv.org/abs/2502.10825)
+- **Jiang, Y.**, Oo, N., Meng, Q., Sikdar, B., & Lim, H. (2024). *A Survey on Vulnerability Prioritization: Taxonomy, Metrics, and Research Challenges* (Under review). [https://arxiv.org/abs/2502.11070](https://arxiv.org/abs/2502.11070)
+
 - Meng, Q., **Jiang, Y.**, Oo, N., Sikdar, B., & Lim, H. (2024). *M^2ASK: A Correlation-Based Multi-Step Attack Scenario Detection Framework Using MITRE ATT&CK Mapping* (Poster Accepted in ACM CCS 2024).
 
 - **Jiang, Y.**, Jeusfeld, M., Mosaad, M., & Oo, N. (2024). Enterprise architecture modeling for cybersecurity analysis in critical infrastructures: A systematic literature review. *International Journal of Critical Infrastructure Protection, 100700.[https://doi.org/10.1016/j.ijcip.2024.100700](https://doi.org/10.1016/j.ijcip.2024.100700)
